@@ -1,0 +1,19 @@
+.choose-player {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gradient-button {
+  background: linear-gradient(
+    90.88deg,
+    rgba(254, 174, 219, 0.24) -43.98%,
+    rgba(245, 172, 236, 0.3) 35.88%,
+    rgba(103, 211, 255, 0.492) 114.14%
+  );
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

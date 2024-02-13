@@ -1,0 +1,13 @@
+.down-home {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .down-home img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .down-home__buttons {
+    margin-top: 20px;
+  }
