@@ -1,13 +1,53 @@
+/* foot.css */
 .footer {
-  background-color: #333;
-  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 20px;
+  background-color: #6f6f6f;
+  color: white;
+  font-size: 30px;
 }
 
-.footer__left div {
-  margin-right: 20px;
+.footer__logo img {
+  height: 278px;
+  width: 289px;
+  position: relative;
 }
 
-.footer__right div {
-  margin-left: 20px;
+.footer__left {
+  top: 70px;
+  left: -100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__right {
+  top: 70px;
+  left: -350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__logo {
+  margin-right: 10px;
+}
+
+.footer__left a,
+.footer__right a {
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__rightbottom {
+  display: flex;
+}
+
+.footer__rightbottom a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
 }
