@@ -1,13 +1,51 @@
+/* he.css */
 .hero {
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .hero__text {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: white;
-    font-size: 24px;
-  }
+  position: relative;
+  margin-bottom: -200px;
+}
+
+.hero__content {
+  text-align: center;
+  position: relative;
+  left: -150px;
+  top: 120px;
+  z-index: 10;
+}
+.hero_img {
+  position: relative;
+  top: -300px;
+}
+.hero img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.hero__text {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.register-btn {
+  background: linear-gradient(
+    90.88deg,
+    rgba(254, 174, 219, 0.24) -43.98%,
+    rgba(245, 172, 236, 0.3) 35.88%,
+    rgba(103, 211, 255, 0.492) 114.14%
+  );
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 32px;
+  height: 79px;
+  width: 288px;
+  margin-top: 50px;
+}
+
+.register-btn:hover {
+  filter: brightness(1.2); /* Optional: Increase brightness on hover */
+}

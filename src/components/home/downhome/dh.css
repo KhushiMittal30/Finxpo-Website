@@ -1,13 +1,38 @@
+/* dh.css */
 .down-home {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .down-home img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .down-home__buttons {
-    margin-top: 20px;
-  }
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.down-home img {
+  width: 100%;
+  height: auto;
+}
+
+.down-home__buttons {
+  margin-top: 20px;
+  position: relative;
+  top: 500px;
+  z-index: 100;
+}
+
+.gradient-button {
+  background: linear-gradient(
+    93deg,
+    rgba(144, 19, 53, 0.37) -49.42%,
+    rgba(201, 176, 168, 0.56) 47.21%,
+    #22107d 181.58%
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 32px;
+  position: relative;
+}
+
+.gradient-button:hover {
+  filter: brightness(1.2);
+}

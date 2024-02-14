@@ -1,6 +1,11 @@
+/* cp.css */
 .choose-player {
   text-align: center;
-  margin-top: 20px;
+}
+
+.choose-player h2 {
+  font-size: 60px;
+  margin-bottom: 80px;
 }
 
 .gradient-button {
@@ -11,9 +16,16 @@
     rgba(103, 211, 255, 0.492) 114.14%
   );
   border: none;
+  font-size: 32px;
   color: white;
   padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
+  height: 79px;
+  width: 505px; /* Total width of buttons */
+  margin: 0 auto; /* Center align buttons */
+}
+
+.gradient-button + .gradient-button {
+  margin-left: 211px; /* Adjust the gap between buttons */
 }

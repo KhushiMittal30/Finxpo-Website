@@ -1,16 +1,3 @@
-import React from "react";
-import HeroSection from "./herosection";
-import ChoosePlayerSection from "./chooseplayer";
-import DownHomeSection from "./downhome";
-
-const Home = () => {
-  return (
-    <>
-      <HeroSection />
-      <ChoosePlayerSection />
-      <DownHomeSection />
-    </>
-  );
-};
-
-export default Home;
+export { default as Chooseplayer } from "./chooseplayer/cp";
+export { default as HeroSection } from "./herosection/he";
+export { default as DownHomeSection } from "./downhome/dh";
