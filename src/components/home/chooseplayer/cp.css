@@ -1,10 +1,25 @@
 /* cp.css */
 .choose-player {
   text-align: center;
+  opacity: 0; /* Set initial opacity to 0 */
+  transform: translateY(50px); /* Set initial translateY value */
+  animation: fadeInUp 1s ease-out 2s forwards; /* Animation properties */
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .choose-player h2 {
   font-size: 60px;
+  margin-top: 20px;
   margin-bottom: 80px;
 }
 
