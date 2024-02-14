@@ -1,0 +1,136 @@
+.holder {
+  position: relative;
+  width: 1077px;
+  height: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+.label {
+  font-size: 32px;
+}
+
+.imgage {
+  position: relative;
+  width: 1448px;
+  height: 823px;
+}
+
+.register-container {
+  width: 1077px;
+  height: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  position: absolute;
+}
+.register-back {
+  width: 1077px;
+  height: 1200px;
+  margin: 0 auto;
+  padding: 80px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  background: linear-gradient(
+    0deg,
+    rgba(254, 174, 219, 0.24) -43.98%,
+    rgba(245, 172, 236, 0.3) 35.88%,
+    rgba(103, 211, 255, 0.492) 114.14%
+  );
+  opacity: 0.2;
+  position: absolute;
+}
+
+.register-header {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-input {
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: rgba(217, 217, 217, 0.2); /* Adjusted opacity to 20% */
+  width: 961px;
+  height: 54px;
+  font-size: 20px;
+  color: wheat;
+}
+
+.register-form label {
+  font-size: 16px;
+}
+
+.check {
+  font-size: 32px;
+}
+
+.register-button {
+  background: linear-gradient(
+    90.88deg,
+    rgba(254, 174, 219, 0.24) -43.98%,
+    rgba(245, 172, 236, 0.3) 35.88%,
+    rgba(103, 211, 255, 0.492) 114.14%
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  width: 536px;
+  height: 94px;
+  cursor: pointer;
+  font-size: 37px;
+  align-self: center;
+  margin-top: 80px;
+}
+
+.register-button:hover {
+  filter: brightness(1.2);
+}
+
+/* reg.css */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2196f3; /* Example color for checked state */
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713"; /* Checkmark symbol */
+  font-size: 24px; /* Adjust the size of the checkmark as needed */
+  text-align: center;
+  line-height: 30px; /* Adjust the alignment of the checkmark as needed */
+  color: white;
+  background-color: #2196f3; /* Example color for checked state */
+}

@@ -1,0 +1,70 @@
+/* tl.css */
+.holder1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.imgage1 {
+  position: relative;
+  left: 30%;
+  width: 400px;
+}
+.vectors {
+  position: absolute;
+  bottom: -150px;
+}
+.gradient-button1 {
+  background: linear-gradient(
+    93deg,
+    rgba(144, 19, 53, 0.37) -49.42%,
+    rgba(201, 176, 168, 0.56) 47.21%,
+    #22107d 181.58%
+  );
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 32px;
+  position: absolute;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 300px;
+  max-height: 400px; /* Set maximum height */
+  overflow-y: auto; /* Enable vertical scroll */
+  scroll-behavior: smooth; /* Add smooth scrolling */
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 30px;
+  background: linear-gradient(
+    90.88deg,
+    rgba(254, 174, 219, 0.24) -43.98%,
+    rgba(245, 172, 236, 0.3) 35.88%,
+    rgba(103, 211, 255, 0.492) 114.14%
+  );
+  color: white;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-details {
+  font-size: 18px;
+}

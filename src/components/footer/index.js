@@ -10,6 +10,7 @@ import mail from "../../assets/Email.png";
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="back1" />
       <div className="footer__logo">
         <img src={clublogo} alt="Logo" />
       </div>
@@ -23,13 +24,25 @@ const Footer = () => {
         <Link to="/terms">Terms and conditions</Link>
         <Link to="/privacy">Privacy Policy</Link>
         <div className="footer__rightbottom">
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={insta} alt="Insta" />
           </a>
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={linkedin} alt="Linkedin" />
           </a>
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={mail} alt="Mail" />
           </a>
         </div>

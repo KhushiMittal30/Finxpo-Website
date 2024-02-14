@@ -1,0 +1,33 @@
+.image1 {
+  position: relative;
+  right: -29px;
+  top: -60px;
+}
+
+.image2 {
+  position: relative;
+  margin-top: 300px;
+  left: 25%;
+}
+
+.holder2 {
+  position: relative;
+  width: 1077px;
+
+  margin: 0 auto;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-button {
+  height: 79px;
+  width: 405px; /* Total width of buttons */
+  margin: 0 auto; /* Center align buttons */
+}
+.speaker__buttons {
+  margin-top: -130px;
+}
+.gradient-button + .gradient-button {
+  margin-left: 211px; /* Adjust the gap between buttons */
+}

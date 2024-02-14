@@ -1,7 +1,7 @@
 // App.js
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import { Navbar, Footer, Home } from "./components";
+import { Navbar, Footer, Home, Register, TimeLine ,Web3} from "./components";
 
 import "./App.css";
 const App = () => {
@@ -14,9 +14,11 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/timeline" element={<TimeLine />} />
+          <Route path="/web3" element={<Web3 />} />
+
           {/* {} */}
           <Route path="/speaker-sessions" element={<SpeakerSessions />} />
-          <Route path="/workshops" element={<Workshops />} />
           <Route path="/ideathon" element={<Ideathon />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
@@ -32,9 +34,7 @@ const App = () => {
 
 const About = () => <h1>About Page</h1>;
 const Sponsors = () => <h1>Sponsors Page</h1>;
-const Register = () => <h1>Register Page</h1>;
 const SpeakerSessions = () => <h1>Speaker Sessions Page</h1>;
-const Workshops = () => <h1>Workshops Page</h1>;
 const Ideathon = () => <h1>Ideathon Page</h1>;
 const TermsConditions = () => <h1>Terms and Conditions Page</h1>;
 const PrivacyPolicy = () => <h1>Privacy Policy Page</h1>;
