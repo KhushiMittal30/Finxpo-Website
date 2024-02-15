@@ -1,0 +1,15 @@
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDGZkBqg8OUkBD_-HnC7dKUqC8VKj5qwPk",
+  authDomain: "phsykick.firebaseapp.com",
+  databaseURL: "https://phsykick.firebaseio.com",
+  projectId: "phsykick",
+  storageBucket: "phsykick.appspot.com",
+  messagingSenderId: "693358512728",
+  appId: "1:693358512728:web:9c74d8ae2a70e6de3b982d",
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getDatabase();
