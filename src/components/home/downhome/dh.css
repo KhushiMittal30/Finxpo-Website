@@ -2,18 +2,13 @@
 .down-home {
   text-align: center;
   margin-top: 20px;
-  position: relative;
-}
-
-.down-home img {
-  width: 100%;
-  height: auto;
+  opacity: 0; /* Set initial opacity to 0 */
+  transform: translateY(50px); /* Set initial translateY value */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .down-home__buttons {
-  margin-top: 20px;
   position: relative;
-  top: 500px;
   z-index: 100;
 }
 
@@ -30,9 +25,20 @@
   border-radius: 30px;
   cursor: pointer;
   font-size: 32px;
+  margin-bottom: 20px;
   position: relative;
+  opacity: 0; /* Set initial opacity to 0 */
+  transform: translateY(50px); /* Set initial translateY value */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .gradient-button:hover {
   filter: brightness(1.2);
 }
+
+.down-home_img img {
+  margin-top:  -100px;
+  width: 100%;
+  height: auto;
+}
+
