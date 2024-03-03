@@ -13,53 +13,13 @@ const Timeline = () => {
       <div className="imgage1">
         <img src={Timeback} alt="Tl" />
       </div>
-      <button
-        className="gradient-button1"
-        style={{
-          top: "400px",
-          left: "330px",
-          height: "79px",
-          width: "354px",
-        }}
-      >
-        2 Feb - Workshop
-      </button>
+      <button className="gradient-button1 _1tl">2 Feb - Workshop</button>
       <img className="vectors" src={Vector1} alt="Tl" style={{ left: 250 }} />
-      <button
-        className="gradient-button1"
-        style={{
-          bottom: "0px",
-          left: "200px",
-          height: "79px",
-          width: "470px",
-        }}
-      >
-        3 Feb - Speaker Session
-      </button>
+      <button className="gradient-button1 _2tl">3 Feb - Speaker Session</button>
       <img className="vectors" src={Vector2} alt="Tl" style={{ left: 650 }} />
-      <button
-        className="gradient-button1"
-        style={{
-          bottom: "160px",
-          right: "200px",
-          height: "79px",
-          width: "354px",
-        }}
-      >
-        5 Feb - Ideathon
-      </button>
+      <button className="gradient-button1 _4tl">4 Feb - Game-a-Thon</button>
       <img className="vectors" src={Vector3} alt="Tl" style={{ left: 1150 }} />
-      <button
-        className="gradient-button1"
-        style={{
-          bottom: "330px",
-          right: "250px",
-          height: "79px",
-          width: "421px",
-        }}
-      >
-        4 Feb - Game-a-Thon
-      </button>
+      <button className="gradient-button1 _3tl">5 Feb - Ideathon</button>
       <img className="vectors" src={Vector4} alt="Tl" style={{ left: 1450 }} />
 
       <div className="card-container">
@@ -72,11 +32,11 @@ const Timeline = () => {
           details="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <Card
-          title="Event 1"
+          title="Event 3"
           details="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         />
         <Card
-          title="Event 2"
+          title="Event 4"
           details="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
 

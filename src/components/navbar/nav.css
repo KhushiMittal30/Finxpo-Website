@@ -6,6 +6,7 @@
   align-items: center;
   padding: 10px 20px;
   height: 157px;
+  z-index: 1000;
 }
 
 .navbar__logo {
@@ -31,4 +32,27 @@
 .navbar__logo img {
   width: 137px;
   height: 137px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: row; /* Revert to row layout for larger screens */
+    height: 50px; /* Restore original height for larger screens */
+    margin-bottom: 20px;
+    
+  }
+
+  .navbar__logo img {
+    width: 67px;
+    height: 57px;
+  }
+
+  .navbar__links a {
+    flex-direction: row; /* Revert to row layout for larger screens */
+    margin-right: 0px;
+    line-height: 0px;
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+  }
 }

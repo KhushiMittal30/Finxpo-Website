@@ -20,13 +20,13 @@
     rgba(201, 176, 168, 0.56) 47.21%,
     #22107d 181.58%
   );
+  position: absolute;
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 30px;
   cursor: pointer;
   font-size: 32px;
-  position: absolute;
 }
 .card-container {
   display: flex;
@@ -67,4 +67,95 @@
 
 .card-details {
   font-size: 18px;
+}
+
+/* tl.css */
+
+._1tl {
+  top: 400px;
+  left: 330px;
+  height: 79px;
+  width: 354px;
+}
+
+._2tl {
+  bottom: 0px;
+  left: 200px;
+  height: 79px;
+  width: 470px;
+}
+
+._3tl {
+  bottom: 160px;
+  right: 200px;
+  height: 79px;
+  width: 354px;
+}
+
+._4tl {
+  bottom: 330px;
+  right: 250px;
+  height: 79px;
+  width: 421px;
+}
+
+@media only screen and (max-width: 768px) {
+  .holder1 {
+    text-align: center;
+  }
+
+  .imgage1 {
+    position: static;
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+  }
+  .imgage1 img {
+    width: 300px;
+  }
+  .vectors {
+    display: none;
+  }
+
+  .gradient-button1 {
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .card-header {
+    font-size: 20px;
+  }
+  .card-details {
+    font-size: 14px;
+  }
+  .card-container {
+    margin: 20px auto;
+    max-width: 400px;
+    overflow: auto;
+  }
+
+  .card {
+    width: 60%;
+    max-width: 200px;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  ._1tl {
+    top: 110px;
+    left: 150px;
+  }
+  ._2tl {
+    bottom: 330px;
+    left: 30px;
+  }
+  ._3tl {
+    bottom: 300px;
+    right: 10px;
+  }
+  ._4tl {
+    bottom: 190px;
+    left: 150px;
+  }
 }
