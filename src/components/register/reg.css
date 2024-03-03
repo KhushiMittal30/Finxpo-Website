@@ -18,6 +18,9 @@
   width: 1448px;
   height: 823px;
 }
+.haha {
+  margin-top: 80px;
+}
 
 .register-container {
   width: 1077px;
@@ -133,4 +136,64 @@ input[type="checkbox"]:checked::before {
   line-height: 30px; /* Adjust the alignment of the checkmark as needed */
   color: white;
   background-color: #2196f3; /* Example color for checked state */
+}
+
+@media only screen and (max-width: 600px) {
+  .holder {
+    height: 40%;
+    width: 40%;
+    position: relative;
+    margin-bottom: -200px;
+  }
+  .label {
+    font-size: 14px;
+  }
+  .check {
+    font-size: 14px;
+  }
+  .haha {
+    margin-top: 10px;
+  }
+  .imgage img {
+    position: relative;
+    width: 400px;
+    height: 266px;
+    left: 0px;
+    margin-bottom: -500px;
+    opacity: 0.8;
+  }
+
+  .register-container,
+  .register-back {
+    width: 60%; /* Adjusting width to fit smaller screens */
+    padding: 15%;
+    width: 300px;
+    height: 430px;
+  }
+
+  .register-header {
+    font-size: 30px; /* Decreasing font size for smaller screens */
+  }
+  .register-button {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .register-input {
+    margin-bottom: 0px;
+    padding: 10px 10px;
+    width: 70px;
+    height: 1px;
+    font-size: 9px;
+  }
+
+  input[type="checkbox"]::before,
+  input[type="checkbox"]:checked::before,
+  input[type="checkbox"] {
+    width: 10px; /* Adjust the size as needed */
+    height: 10px; /* Adjust the size as needed */
+    font-size: 8px;
+    line-height: 11px;
+  }
 }

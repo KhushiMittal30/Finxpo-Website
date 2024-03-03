@@ -96,7 +96,7 @@ const Register = () => {
             onChange={handleChange}
             value={formData.collegeName} // Set initial value from formData
           />
-          <label style={{ marginTop: 80 }}>
+          <label className ="haha" >
             <input
               type="checkbox"
               name="signUpForNewsletter"
