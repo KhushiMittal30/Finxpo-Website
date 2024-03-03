@@ -5,14 +5,15 @@
   opacity: 0; /* Set initial opacity to 0 */
   transform: translateY(50px); /* Set initial translateY value */
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  position: relative;
 }
 
 .down-home__buttons {
-  position: relative;
+  position: absolute;
   z-index: 100;
 }
 
-.gradient-button {
+.gradient-buttondh {
   background: linear-gradient(
     93deg,
     rgba(144, 19, 53, 0.37) -49.42%,
@@ -32,13 +33,69 @@
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
-.gradient-button:hover {
+._1dh {
+  top: 250px;
+  left: 1260px;
+  height: 79px;
+  width: 288px;
+}
+._2dh {
+  top: 450px;
+  left: 180px;
+  height: 79px;
+  width: 392px;
+}
+._3dh {
+  top: 950px;
+  left: 70px;
+  height: 79px;
+  width: 288px;
+}
+
+.gradient-buttondh:hover {
   filter: brightness(1.2);
 }
 
 .down-home_img img {
-  margin-top:  -100px;
+  margin-top: 0px;
   width: 100%;
   height: auto;
 }
 
+/* dh.css */
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .down-home {
+    margin-top: 0;
+    position: relative;
+  }
+
+  .gradient-buttondh {
+    font-size: 14px;
+    height: 20px;
+    padding: 0px;
+  }
+
+  .down-home_img img {
+    margin-top: 0px;
+    width: 500px;
+    left: -30px;
+    position: relative;
+  }
+  ._1dh {
+    top: 70px;
+    left: 320px;
+    width: 80px;
+  }
+  ._2dh {
+    top: 100px;
+    left: -20px;
+    width: 140px;
+  }
+  ._3dh {
+    top: 260px;
+    left: -80px;
+    width: 80px;
+  }
+}

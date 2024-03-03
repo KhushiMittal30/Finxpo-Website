@@ -23,7 +23,7 @@
   margin-bottom: 80px;
 }
 
-.gradient-button {
+.gradient-buttoncp {
   background: linear-gradient(
     90.88deg,
     rgba(254, 174, 219, 0.24) -43.98%,
@@ -41,6 +41,24 @@
   margin: 0 auto; /* Center align buttons */
 }
 
-.gradient-button + .gradient-button {
+.gradient-buttoncp + .gradient-buttoncp {
   margin-left: 211px; /* Adjust the gap between buttons */
+}
+
+
+@media only screen and (max-width: 768px) {
+  .choose-player h2 {
+    font-size: 28px; /* Decreasing heading font size for smaller screens */
+    margin-bottom: 40px; /* Decreasing bottom margin for smaller screens */
+  }
+
+  .gradient-buttoncp {
+    font-size: 14px; /* Decreasing button font size for smaller screens */
+    width: 180px; /* Adjusting button width for smaller screens */
+    height: 30px; /* Adjusting button height for smaller screens */
+    padding:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 }

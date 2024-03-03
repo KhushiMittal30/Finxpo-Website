@@ -8,8 +8,9 @@ const HeroSection = () => {
   return (
     <div className="hero">
       <div className="hero__content">
+        
         <div className="hero__text">MIT’s Biggest Fin-Tech Expo</div>
-        <div className="hero__text">Welcomes you Aboard</div>
+        <div className="hero__text _1he">Welcomes you Aboard</div>
         <Link to="/register">
           <button className="register-btn">Register Here</button>
         </Link>

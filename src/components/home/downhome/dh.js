@@ -6,7 +6,7 @@ const DownHomeSection = () => {
   useEffect(() => {
     // Set scroll animation when the component mounts
     const downHomeSection = document.querySelector(".down-home");
-    const buttons = document.querySelectorAll(".gradient-button");
+    const buttons = document.querySelectorAll(".gradient-buttondh");
 
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -36,39 +36,9 @@ const DownHomeSection = () => {
   return (
     <div className="down-home">
       <div className="down-home__buttons">
-        <button
-          className="gradient-button"
-          style={{
-            top: "450px",
-            left: "90px",
-            height: "79px",
-            width: "392px",
-          }}
-        >
-          Speaker Sessions
-        </button>
-        <button
-          className="gradient-button"
-          style={{
-            top: "900px",
-            left: "70px",
-            height: "79px",
-            width: "288px",
-          }}
-        >
-          Ideathon
-        </button>
-        <button
-          className="gradient-button"
-          style={{
-            top: "520px",
-            left: "-180px",
-            height: "79px",
-            width: "288px",
-          }}
-        >
-          Workshops
-        </button>
+        <button className="gradient-buttondh _1dh">Workshops</button>
+        <button className="gradient-buttondh _2dh">Speaker Sessions</button>
+        <button className="gradient-buttondh _3dh">Ideathon</button>
       </div>
       <div className="down-home_img">
         <img src={downhome} alt="Down Home" />
