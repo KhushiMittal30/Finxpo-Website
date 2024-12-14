@@ -28,6 +28,7 @@
   font-size: 32px;
   margin-bottom: 20px;
   position: relative;
+  /*no use*/
   opacity: 0; /* Set initial opacity to 0 */
   transform: translateY(50px); /* Set initial translateY value */
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
@@ -54,6 +55,7 @@
 
 .gradient-buttondh:hover {
   filter: brightness(1.2);
+  opacity:1;
 }
 
 .down-home_img img {
