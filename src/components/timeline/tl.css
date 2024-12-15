@@ -12,6 +12,7 @@
 .vectors {
   position: absolute;
   bottom: -150px;
+  /* z-index: -1; */
 }
 .gradient-button1 {
   background: linear-gradient(
@@ -36,7 +37,7 @@
   margin-bottom: 300px;
   max-height: 400px; /* Set maximum height */
   overflow-y: auto; /* Enable vertical scroll */
-  scroll-behavior: smooth; /* Add smooth scrolling */
+  scroll-behavior:smooth; /* Add smooth scrolling */
 }
 
 .card {
