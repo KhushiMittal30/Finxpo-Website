@@ -53,7 +53,7 @@ const WhatIsFinxpo = ()=>{
     return(
     <>
       <div className="outercard">
-        <h1>What's <span className="gradient-text" style={{top:"-100px"}}>Finxpo</span></h1>
+        <h1>What's <span className="gradient-text ubuntu-bold" style={{top:"-100px"}}>Finxpo</span></h1>
         <div className="innercard ">
             <p className="ubuntu-regular">FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
             The event aims to educate, inspire, and connect attendees with industry leaders, offering a unique blend of workshops, competitions, 
@@ -67,7 +67,7 @@ const WhatIsFinxpo = ()=>{
       </div>  
 
         <div className="whatsin">
-        <h1> What's In For <span className='gradient-text'>YOU</span></h1>
+        <h1 className="ubuntu-medium"> What's In For <span className='gradient-text ubuntu-bold'>YOU</span></h1>
         <CircularCarousel />
         <div className="what-is-finxpo-img">
                 <img src={downhome} alt="what is finxpo" />
