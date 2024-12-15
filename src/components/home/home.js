@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroSection, DownHomeSection, Chooseplayer,WhatIsFinxpo } from "./";
+import { HeroSection, DownHomeSection, Chooseplayer,WhatIsFinxpo} from "./";
 
 const Home = () => {
   return (
