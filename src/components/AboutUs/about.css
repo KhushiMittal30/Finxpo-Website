@@ -1,0 +1,64 @@
+.Outer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 70px;
+}
+
+.border-gradient {
+    border: 5px solid transparent; /* Set the border width */
+    border-image-source: linear-gradient(
+      90.88deg,
+      rgba(254, 174, 219, 0.24) -43.98%,
+      rgba(245, 172, 236, 0.3) 35.88%,
+      rgba(103, 211, 255, 0.492) 114.14%
+    );
+    border-image-slice: 1;
+  }
+  
+
+.inner{
+    margin: 20px;
+    font-size: 20px;
+    height: auto;
+    width:700px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.points{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+}
+
+.geton{
+    position: relative;
+}
+
+.geton:hover{
+    transform: rotateZ(30deg);
+}
+.points img{
+    height: 150px;
+    width: 170px;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.aboutuspoints{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: 100;
+    font-size: 13px;
+    
+}

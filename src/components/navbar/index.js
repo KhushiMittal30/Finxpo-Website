@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="navbar__logo" style={{paddingRight:"250px"}}>
           <img src={logo} alt="Logo" />
         </div>
-      <div className="navbar__links gradient-navbar" style={{opacity:"1"}}>
+      <div className="navbar__links" style={{opacity:"1"}}>
       <Link to="/">Home</Link>
         <Link to="/timeline">Event Timeline</Link>
         <Link to="/about">About Us</Link>

@@ -90,7 +90,6 @@ function Footer() {
                 </div>
             </div>
         </footer>
-        <img className="vectors" src={Vector1} alt="Tl" style={{ left: 250 }} />
 
         </>
     );
