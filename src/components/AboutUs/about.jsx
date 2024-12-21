@@ -1,10 +1,16 @@
 import React from 'react'
 import "./about.css"
-import imgg from "../../assets/splatter_bg_aboutus.jpg"
+import imgg from "../../assets/splatter_bg_aboutus.jpg";
+import Organizers from "../Organizers/organizers.jsx";
+import Vector1 from "./../../assets/Vector 1.png";
+import Vector4 from "./../../assets/Vector 4.png";
+
 
 const about = () => {
   return (
+    <>
     <div className='Outer'>
+              <img className="vectors" src={Vector1} alt="Tl" style={{ left: 150 }} />
         <h1 className='ubuntu-bold'>About <span className="gradient-text">Us</span></h1>
         <div className='inner border-gradient'>
             <p>FinXpo 2025 is a groundbreaking 3-day conference that will explore the latest advancements in Web3 and FinTech. Immerse yourself in adynamic ecosystem of industry experts, innovative startups, and cutting-edge technologies shaping the future of finance.</p>
@@ -33,7 +39,10 @@ const about = () => {
                     
              </div>
         </div>
+              <img className="vectors" src={Vector4} alt="Tl" style={{ left: 1050 }} />
     </div>
+        <Organizers/>
+    </>
   );
 }
 

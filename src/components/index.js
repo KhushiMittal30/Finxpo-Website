@@ -5,4 +5,3 @@ export { default as Register } from "./register";
 export { default as TimeLine } from "./timeline";
 export { default as Web3 } from "./web3";
 export {default as AboutUs} from "./AboutUs/about";
-export {default as Speaker} from "./Speakers/speakers"

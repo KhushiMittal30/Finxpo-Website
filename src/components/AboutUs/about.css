@@ -6,7 +6,13 @@
     align-items: center;
     margin: 20px;
     font-size: 70px;
+    z-index: 100;
 }
+/* .vectors {
+    position: absolute;
+    bottom: -150px;
+    z-index: -1;
+  } */
 
 .border-gradient {
     border: 5px solid transparent; /* Set the border width */
