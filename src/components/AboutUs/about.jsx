@@ -4,14 +4,16 @@ import imgg from "../../assets/splatter_bg_aboutus.jpg";
 import Organizers from "../Organizers/organizers.jsx";
 import Vector1 from "./../../assets/Vector 1.png";
 import Vector4 from "./../../assets/Vector 4.png";
+import TypingEffect2 from '../Organizers/typingEffect2.jsx';
 
 
 const about = () => {
+    const text = "US"
   return (
     <>
     <div className='Outer'>
               <img className="vectors" src={Vector1} alt="Tl" style={{ left: 150 }} />
-        <h1 className='ubuntu-bold'>About <span className="gradient-text">Us</span></h1>
+        <h1 className='ubuntu-bold'>About <TypingEffect2 text={text} speed={50} /></h1>
         <div className='inner border-gradient'>
             <p>FinXpo 2025 is a groundbreaking 3-day conference that will explore the latest advancements in Web3 and FinTech. Immerse yourself in adynamic ecosystem of industry experts, innovative startups, and cutting-edge technologies shaping the future of finance.</p>
              <div className='points'>

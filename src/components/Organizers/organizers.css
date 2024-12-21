@@ -1,5 +1,5 @@
 .border-gradient {
-    border: 5px solid transparent; /* Set the border width */
+    border: 2px solid transparent; /* Set the border width */
     border-image-source: linear-gradient(
       90.88deg,
       rgba(254, 174, 219, 0.24) -43.98%,
@@ -49,3 +49,4 @@
 .innerr img:hover {
   transform: rotateZ(180deg);
 }
+

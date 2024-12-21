@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link to="/">Home</Link>
         <Link to="/timeline">Event Timeline</Link>
         <Link to="/about">About Us</Link>
-        <Link to="/sponsors">Sponsors</Link>
+        <Link to="/speakers">Speakers</Link>
         <Link to="/register">Register</Link>
       </div>
       <div className="navbar__logo" style={{paddingLeft:"250px"}}>

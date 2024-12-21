@@ -1,7 +1,7 @@
 // App.js
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import { Navbar, Footer, Home, Register, TimeLine ,Web3, AboutUs} from "./components";
+import { Navbar, Footer, Home, Register, TimeLine ,Web3, AboutUs,Speakers} from "./components";
 
 import "./App.css";
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/speakers" element={<Speakers />} />
           <Route path="/register" element={<Register />} />
           <Route path="/timeline" element={<TimeLine />} />
           <Route path="/web3" element={<Web3 />} />
@@ -33,7 +33,7 @@ const App = () => {
 };
 
 // const About = () => <h1>About Page</h1>;
-const Sponsors = () => <h1>Sponsors Page</h1>;
+// const Sponsors = () => <h1>Sponsors Page</h1>;
 // const SpeakerSessions = () => <h1>Speaker Sessions Page</h1>;
 const Ideathon = () => <h1>Ideathon Page</h1>;
 const TermsConditions = () => <h1>Terms and Conditions Page</h1>;
