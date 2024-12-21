@@ -2,6 +2,7 @@
 import React from "react";
 import "./he.css";
 import hero from "../../../assets/hero.jpg";
+// import animation from "../../../assets/animationbg2.mp4";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -16,7 +17,8 @@ const HeroSection = () => {
         </Link>
       </div>
       <div className="hero_img">
-        <img src={hero} alt="Hero" />
+        {/* <video src={animation} loop autoPlay muted /> */}
+        <img src={hero} alt="hero-img" />
       </div>
     </div>
   );

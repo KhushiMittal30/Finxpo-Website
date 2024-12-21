@@ -7,17 +7,19 @@ import logo from "../../assets/backlogo.png";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/">
-        <div className="navbar__logo">
+        <div className="navbar__logo" style={{paddingRight:"250px"}}>
           <img src={logo} alt="Logo" />
         </div>
-      </Link>
-      <div className="navbar__links">
+      <div className="navbar__links gradient-navbar" style={{opacity:"1"}}>
+      <Link to="/">Home</Link>
         <Link to="/timeline">Event Timeline</Link>
         <Link to="/about">About Us</Link>
         <Link to="/sponsors">Sponsors</Link>
         <Link to="/register">Register</Link>
       </div>
+      <div className="navbar__logo" style={{paddingLeft:"250px"}}>
+          <img src={logo} alt="Logo" />
+        </div>
     </nav>
   );
 };

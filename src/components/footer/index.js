@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./footerlogo.jsx";
 import Numelogo from "../../assets/logo.jpg";
+import { Link } from "react-router-dom";
 // import getstamp from "../assets/images/getstamp.png";
 // import ncs from "../assets/images/ncs.png";
 import TypingEffect1 from "../typingEffect/typingEffect";
@@ -38,7 +39,10 @@ function Footer() {
                                 <h2 className="mb-6 text-sm font-semibold leading-5 text-white uppercase box-border border-0">Address</h2>
                                 <ul className="m-0 p-0 list-none text-gray-400 font-medium box-border border-0">
                                     <li className="mb-4 max-w-xs box-border border-0">
-                                        <a href="https://ridemitwpu.in/" className="text-gray-300 no-underline box-border border-0">MIT World Peace University, Paud Rd, Kothrud, Pune, Maharashtra 411038</a>
+                                        <Link to="/" className="text-gray-300 no-underline box-border border-0">MIT World Peace University, Paud Rd, Kothrud, Pune, Maharashtra 411038</Link>
+                                    </li>
+                                    <li className="mb-4 max-w-xs box-border border-0">
+                                        <Link to="/about" className="text-white uppercase no-underline box-border border-0"><h2>More About Us</h2></Link>
                                     </li>
                                 </ul>
                             </div>

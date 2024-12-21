@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 20px;
     font-size: 60px;
     opacity: 0;
     transform: translateY(50px) scale(0.5); /* Initial scale for zoom-in effect */

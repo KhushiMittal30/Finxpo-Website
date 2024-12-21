@@ -2,24 +2,28 @@
   /* background-color: #333; */
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   height: 157px;
   z-index: 1000;
+  margin : auto 5px;
 }
 
 .navbar__logo {
   font-size: 24px;
 }
 
+.navbar__links{
+  border-radius: 8px;
+}
 .navbar__links a {
-  display: inline-block;
+  display: inline;
   width: 179px;
   height: 49px;
   line-height: 49px;
   text-align: center;
-  margin-right: 20px;
+  margin: auto 28px;
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -32,6 +36,7 @@
 .navbar__logo img {
   width: 137px;
   height: 137px;
+  /* margin : auto 70px ; */
 }
 
 @media only screen and (max-width: 768px) {

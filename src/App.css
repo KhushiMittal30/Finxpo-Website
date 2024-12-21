@@ -80,3 +80,13 @@ body {
       rgba(103, 211, 255, 0.492) 114.14%
     );
   }
+
+  .gradient-navbar {
+    background: linear-gradient(
+      90.88deg,
+      rgba(254, 174, 219, 0.1) -43.98%, /* Reduced alpha for more transparency */
+      rgba(245, 172, 236, 0.15) 35.88%, /* Reduced alpha */
+      rgba(103, 211, 255, 0.25) 114.14% /* Reduced alpha */
+    );
+  }
+  
