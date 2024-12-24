@@ -15,7 +15,6 @@ const App = () => {
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/register" element={<Register />} />
           <Route path="/timeline" element={<TimeLine />} />
-          <Route path="/web3" element={<Web3 />} />
 
           {/* {} */}
           {/* <Route path="/speaker-sessions" element={<SpeakerSessions />} /> */}

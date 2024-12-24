@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./tl.css";
 import TypingEffect2 from "../Organizers/typingEffect2";
+import imgg from "../../assets/splatter_bg_aboutus.jpg";
 
-const Timeline = ({ tthalf1, tthalf2,day, scheduleItems, images }) => {
+
+const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
   const [activeItem, setActiveItem] = useState(null);
 
   const showTimelineContent = (itemId) => {
@@ -18,6 +20,7 @@ const Timeline = ({ tthalf1, tthalf2,day, scheduleItems, images }) => {
   };
 
   return (
+    <>
     <div className="wrap">
       <div className="timeline-wrap">
         <h2
@@ -26,8 +29,10 @@ const Timeline = ({ tthalf1, tthalf2,day, scheduleItems, images }) => {
         >
           {tthalf1} <TypingEffect2 text={tthalf2} speed={50} />
         </h2>
+
+        
         <p
-          style={{ textAlign: "center", fontSize: "50px", padding: "50px" }}
+          style={{ textAlign: "center", fontSize: "50px", padding: "50px", zIndex:"1000"}}
           className="ubuntu-bold-italic gradient-text"
         >
           {day}
@@ -62,13 +67,15 @@ const Timeline = ({ tthalf1, tthalf2,day, scheduleItems, images }) => {
           ))}
         </ul>
         <div className="timeline-content">
+
           {scheduleItems.map(({ id, title, content, date }) => (
             <div
-              key={id}
-              className={`p-timeline-content ${
-                activeItem === id ? "i-is-active" : ""
+            key={id}
+            className={`p-timeline-content ${
+              activeItem === id ? "i-is-active" : ""
               }`}
-            >
+              
+              >
               <div className="timeline-content-card">
                 <h3
                   className="timeline-content-title"
@@ -95,13 +102,15 @@ const Timeline = ({ tthalf1, tthalf2,day, scheduleItems, images }) => {
                 ></div>
               </div>
               <div className="timeline-content-image">
-                <img src={images[id - 1]} alt="Event" />
+                <img id="event" src={images[id-1]} alt="Event" />
               </div>
+              <img src= {imgg} alt='image' style={{ opacity:"1",position: "relative",/* align-items: center; */left:"10%",top:"62px",height:"100px",width:"1000px",borderRadius:"8px",zIndex:"-1000"}}></img>
             </div>
           ))}
         </div>
       </div>
     </div>
+      </>
   );
 };
 

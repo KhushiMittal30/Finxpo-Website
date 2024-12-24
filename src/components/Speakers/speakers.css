@@ -11,7 +11,15 @@
     gap:24px;
     max-width: 100%; /* Ensure the container takes the full width */
     /* overflow-x: auto; Allow scrolling if content overflows */
-    animation : slide 15s linear infinite;}
+    animation : slide 15s linear infinite;
+    animation-play-state: running; /* Default state is running */
+  }
+
+  /* Pause animation on hover */
+.Outside:hover .articless {
+  animation-play-state: paused;
+}
+
 
 @keyframes slide{
     0%{
@@ -107,6 +115,7 @@ article {
   
   /* using the has() relational pseudo selector to update our custom properties */
   article:has(:hover, :focus) {
+    /* animation :none; */
     --img-scale: 1.1;
     --title-color: #f3f7f7;
     --link-icon-translate: 0;
