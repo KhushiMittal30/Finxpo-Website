@@ -5,6 +5,7 @@ import Organizers from "../Organizers/organizers.jsx";
 import Vector1 from "./../../assets/Vector 1.png";
 import Vector4 from "./../../assets/Vector 4.png";
 import TypingEffect2 from '../Organizers/typingEffect2.jsx';
+import Sponsors from "../Sponsors/sponsors.jsx";
 
 
 const about = () => {
@@ -44,6 +45,7 @@ const about = () => {
               <img className="vectors" src={Vector4} alt="Tl" style={{ left: 1050 }} />
     </div>
         <Organizers/>
+        <Sponsors />
     </>
   );
 }

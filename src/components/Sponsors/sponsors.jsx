@@ -4,7 +4,7 @@ import "./sponsors.css";
 import ddlogo from '../../assets/data_decoders.jpg';
 import trademax from '../../assets/trade_max.jpg';
 
-const sponsors = () =>{
+const Sponsors = () =>{
     const text = 'Sponsors';
     return (    
         <>
@@ -25,4 +25,4 @@ const sponsors = () =>{
     );
 }
 
-export default sponsors;
+export default Sponsors;
