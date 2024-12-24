@@ -54,7 +54,7 @@ const WhatIsFinxpo = ()=>{
     <>
       <div className="outercard">
         <h1>What's <span className="gradient-text ubuntu-bold" style={{top:"-100px"}}>Finxpo</span></h1>
-        <div className="innercard ">
+        <div className="innercard border-gradient">
             <p className="ubuntu-regular">FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
             The event aims to educate, inspire, and connect attendees with industry leaders, offering a unique blend of workshops, competitions, 
             and networking opportunities. From blockchain basics to advanced quantitative finance methods. FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
