@@ -41,9 +41,9 @@ function Footer() {
                                     <li className="mb-4 max-w-xs box-border border-0">
                                         <Link to="/" className="text-gray-300 no-underline box-border border-0">MIT World Peace University, Paud Rd, Kothrud, Pune, Maharashtra 411038</Link>
                                     </li>
-                                    <li className="mb-4 max-w-xs box-border border-0">
-                                        <Link to="/about" className="text-white uppercase no-underline box-border border-0"><h2>More About Us</h2></Link>
-                                    </li>
+                                    {/* <li className="mb-4 max-w-xs box-border border-0">
+                                        <Link to="/about" className="text-white uppercase no-underline box-border border-0 "><h2 className="text-sm">More About Us</h2></Link>
+                                    </li> */}
                                 </ul>
                             </div>
                             <div className="box-border border-0">

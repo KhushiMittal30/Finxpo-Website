@@ -12,7 +12,7 @@ const about = () => {
   return (
     <>
     <div className='Outer'>
-              <img className="vectors" src={Vector1} alt="Tl" style={{ left: 150 }} />
+              <img className="vectors" src={Vector1} alt="Tl"style={{ left: 150 }} />
         <h1 className='ubuntu-bold'>About <TypingEffect2 text={text} speed={50} /></h1>
         <div className='inner border-gradient'>
             <p>FinXpo 2025 is a groundbreaking 3-day conference that will explore the latest advancements in Web3 and FinTech. Immerse yourself in adynamic ecosystem of industry experts, innovative startups, and cutting-edge technologies shaping the future of finance.</p>

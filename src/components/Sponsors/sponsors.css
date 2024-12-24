@@ -1,0 +1,40 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:30%;
+    width: 600px;
+    /* height: 600px; */
+    font-size: 50px;
+    justify-content: center;
+    align-items:center ;
+}
+
+.innercard{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -50px;
+    flex-wrap: wrap;
+    width:600px;
+    /* height:200px; */
+}
+
+.innercard a img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid red;
+
+}
+
+.border-gradient {
+    border: 2px solid transparent; /* Set the border width */
+    border-image-source: linear-gradient(
+      90.88deg,
+      rgba(254, 174, 219, 0.24) -43.98%,
+      rgba(245, 172, 236, 0.3) 35.88%,
+      rgba(103, 211, 255, 0.492) 114.14%
+    );
+    border-image-slice: 1;
+  }

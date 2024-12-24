@@ -105,9 +105,4 @@
     justify-content: center;
   }
 } */
-
-.vectors {
-  position: absolute;
-  bottom: -150px;
-  /* z-index: -1; */
-}
+/* 
