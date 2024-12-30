@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import {Link} from "react-router-dom";
-import "./wf.css";
+// import {Link} from "react-router-dom";
 import "../../../../src/App.css";
+import "./wf.css";
 import downhome from "../../../assets/downhome.jpg";
 import CircularCarousel from "../carousel/car";
 // import Vector1 from "../../../assets/Vector1.png";
@@ -39,6 +39,8 @@ const WhatIsFinxpo = ()=>{
   
         window.removeEventListener("scroll", handleScroll);
       }
+
+      
     };
   
     window.addEventListener("scroll", handleScroll);
@@ -54,8 +56,8 @@ const WhatIsFinxpo = ()=>{
     <>
       <div className="outercard">
         <h1>What's <span className="gradient-text ubuntu-bold" style={{top:"-100px"}}>Finxpo</span></h1>
-        <div className="innercard">
-            <p className="ubuntu-regular border-gradient" style={{margin:"70px 0 30px 0px"}}>FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
+        <div className="innercard border-gradient2">
+            <p className="ubuntu-regular border-gradient" style={{margin:"70px 0 70px 0px",padding:"30px"}}>FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
             The event aims to educate, inspire, and connect attendees with industry leaders, offering a unique blend of workshops, competitions, 
             and networking opportunities. From blockchain basics to advanced quantitative finance methods. FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
             The event aims to educate, inspire, and connect attendees with industry leaders, offering a unique blend of workshops, competitions, 

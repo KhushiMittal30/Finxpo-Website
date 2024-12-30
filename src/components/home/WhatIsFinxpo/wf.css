@@ -16,15 +16,24 @@
   .innercard {
     text-align: center;
     /* object-fit: cover; */
-    width: 1000px;
+    width:1000px;
     height: auto;
-    margin: 10px;
+    margin: 60px;
     padding: 15px;
-    font-size: 25px;
+    /* font-size: 25px; */
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
   }
+  .innercard p {
+    /* width: 1000px; */
+    /* white-space: nowrap; Prevents text wrapping */
+    /* overflow-x: auto;    Allows horizontal scrolling if text is too long */
+    display: inline-block; /* Ensure the text flows horizontally */
+    font-size: 18px;     /*Adjust font size to fit*/
+    text-align: center;    /* Align text to the left */
+  }
+  
   
   
   .what-is-finxpo-img {
@@ -79,7 +88,7 @@
   }
   
   .border-gradient {
-    border: 40px solid transparent; /* Set the border width */
+    border: 130px solid transparent; /* Set the border width */
     border-image-source: linear-gradient(
       90.88deg,
       rgba(254, 174, 219, 0.24) -43.98%,
@@ -88,3 +97,15 @@
     );
     border-image-slice: 1;
   }
+
+  .border-gradient2 {
+    border: 20px solid transparent; /* Set the border width */
+    border-image-source: linear-gradient(
+      90.88deg,
+      rgba(254, 174, 219, 0.24) -43.98%,
+      rgba(245, 172, 236, 0.3) 35.88%,
+      rgba(103, 211, 255, 0.492) 114.14%
+    );
+    border-image-slice: 1;
+  }
+  
