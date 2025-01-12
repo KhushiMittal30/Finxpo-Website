@@ -62,9 +62,9 @@ const Register = () => {
       </div>
       <div className="register-back" />
       <div className="register-container">
-        <div className="register-header">Register</div>
+        <div className="register-header ubuntu-bold" style={{textAlign:"center", margin:"30px 0 30px 0 "}}>Register Yourself</div>
         <form className="register-form" onSubmit={handleSubmit}>
-          <p className="label">Full Name</p>
+          <p className="label ubuntu-regular">Full Name</p>
           <input
             type="text"
             name="fullName"
@@ -72,7 +72,7 @@ const Register = () => {
             onChange={handleChange}
             value={formData.fullName} // Set initial value from formData
           />
-          <p className="label">Phone Number</p>
+          <p className="label ubuntu-regular">Phone Number</p>
           <input
             type="tel"
             name="phoneNumber"
@@ -80,7 +80,7 @@ const Register = () => {
             onChange={handleChange}
             value={formData.phoneNumber} // Set initial value from formData
           />
-          <p className="label">Email</p>
+          <p className="label ubuntu-regular">Email</p>
           <input
             type="email"
             name="email"
@@ -88,7 +88,7 @@ const Register = () => {
             onChange={handleChange}
             value={formData.email} // Set initial value from formData
           />
-          <p className="label">College Name</p>
+          <p className="label ubuntu-regular">College Name</p>
           <input
             type="text"
             name="collegeName"
@@ -103,7 +103,7 @@ const Register = () => {
               onChange={handleChange}
               checked={formData.signUpForNewsletter} // Set initial checked state from formData
             />
-            <span className="check">Sign up for newsletter</span>
+            <span className="check ubuntu-regular">Sign up for newsletter</span>
           </label>
           <button className="register-button">Register</button>
         </form>

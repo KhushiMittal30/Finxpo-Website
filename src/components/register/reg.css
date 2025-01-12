@@ -1,7 +1,8 @@
 .holder {
   position: relative;
+  /* padding: 50px; */
   width: 1077px;
-  margin: 0 auto;
+  margin: 170px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +56,7 @@
 .register-form {
   display: flex;
   flex-direction: column;
+  padding: 50px;
 }
 
 .register-input {
@@ -66,7 +68,7 @@
   width: 961px;
   height: 54px;
   font-size: 20px;
-  color: wheat;
+  color: rgb(255, 255, 255);
 }
 
 .register-form label {
