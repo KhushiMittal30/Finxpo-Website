@@ -1,7 +1,7 @@
 // App.js
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import { Navbar, Footer, Home, Register, TimeLine ,Web3, AboutUs,Speakers} from "./components";
+import { Navbar, Footer, Home, Register, TimeLine , AboutUs,Speakers} from "./components";
 
 import "./App.css";
 const App = () => {
@@ -16,11 +16,8 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/timeline" element={<TimeLine />} />
 
-          {/* {} */}
-          {/* <Route path="/speaker-sessions" element={<SpeakerSessions />} /> */}
           <Route path="/ideathon" element={<Ideathon />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
-          {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} /> */}
           <Route path="/instagram" element={<Instagram />} />
           <Route path="/linkedin" element={<Linkedin />} />
           <Route path="/mail" element={<Mail />} />

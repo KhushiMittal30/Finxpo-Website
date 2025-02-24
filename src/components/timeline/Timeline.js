@@ -95,12 +95,21 @@ const Timeline = ({tthalf1, tthalf2, day, scheduleItems, images }) => {
                 <Link to="/register">
                 <button
                   className="btn btn-blauw timeline-content-button"
-                  href="/register"
+                  // href="/register"
                   title="Register now"
                 >
                   Register Now
                 </button>
                 </Link>
+                {/* <Link to="/register" className="btn btn-blauw timeline-content-button">
+                   Register Now
+                </Link> */}
+
+                {/* <Link to="/register">
+                          <button className="register-btn">Register Here</button>
+                </Link> */}
+                {/* <Link to="/register" className="register-btn">Register Here</Link> */}
+
                 <div
                   className="close"
                   onClick={() => closeCurrentContent()}

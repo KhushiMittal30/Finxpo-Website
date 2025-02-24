@@ -1,5 +1,10 @@
-import img1 from "../../../src/assets/starup_home.png";
-import img2 from "../../../src/assets/speaker_session_home.jpg";
+import img1 from "../../assets/Hackathon_home.jpg"
+import img2 from "../../assets/MockTrading.jpg";
+import img3 from "../../assets/starup_home.png";
+import img4 from "../../assets/workshop_home.jpg";
+import img5 from "../../assets/QuantTrading.png";
+import img6 from "../../assets/prizedist.jpg";
+import img7 from "../../assets/research.jpg";
 
 
 
@@ -26,9 +31,9 @@ const day1Data = {
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
     ],
     images: [
-      img1,
-      img1,
-      img1,
+      img3,
+      img7,
+      img4,
       img1,
       // Add more image paths...
     ],
@@ -55,8 +60,8 @@ const day1Data = {
     ],
     images: [
         img2,
-        img2,
-        img2,
+        img5,
+        img6,
     ],
   };
 
