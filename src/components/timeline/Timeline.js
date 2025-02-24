@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./tl.css";
 import TypingEffect2 from "../Organizers/typingEffect2";
 import imgg from "../../assets/splatter_bg_aboutus.jpg";
 
 
-const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
+const Timeline = ({tthalf1, tthalf2, day, scheduleItems, images }) => {
   const [activeItem, setActiveItem] = useState(null);
 
   const showTimelineContent = (itemId) => {
@@ -32,13 +33,13 @@ const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
 
         
         <p
-          style={{ textAlign: "center", fontSize: "50px", padding: "50px", zIndex:"1000"}}
-          className="ubuntu-bold-italic gradient-text"
+          style={{ textAlign: "center", fontSize: "79px", padding: "50px", zIndex:"1000"}}
+          className="faster-one-regular gradient-text"
         >
           {day}
         </p>
         <ul className="timeline">
-          {scheduleItems.map(({ id, date, label }) => (
+          {scheduleItems.map(({ id, title, label }) => (
             <li
               key={id}
               className={`timeline-item ${
@@ -56,11 +57,11 @@ const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
                     lineHeight: "1.3",
                   }}
                 >
-                  {date}
+                  {title}
                 </p>
-                <span className="p-timeline-carmodel" data-car={id}>
+                {/* <span className="p-timeline-carmodel" data-car={id}>
                   {label}
-                </span>
+                </span> */}
                 <div className="p-timeline-block"></div>
               </div>
             </li>
@@ -68,7 +69,7 @@ const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
         </ul>
         <div className="timeline-content">
 
-          {scheduleItems.map(({ id, title, content, date }) => (
+          {scheduleItems.map(({ id, title, content, date,label }) => (
             <div
             key={id}
             className={`p-timeline-content ${
@@ -82,20 +83,24 @@ const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
                   style={{
                     fontSize: "60px",
                     margin: "20px 0",
-                    padding: "30px 0",
+                    padding: "10px 0",
+                    lineHeight:"1"
                   }}
                 >
                   {title}
                 </h3>
-                <time className="timeline-content-date">{date}</time>
+                <time className="timeline-content-date">{date} : </time>
+                <time className="timeline-content-date">{label}</time>
                 <p>{content}</p>
-                <a
+                <Link to="/register">
+                <button
                   className="btn btn-blauw timeline-content-button"
-                  href="#"
+                  href="/register"
                   title="Register now"
                 >
                   Register Now
-                </a>
+                </button>
+                </Link>
                 <div
                   className="close"
                   onClick={() => closeCurrentContent()}
@@ -104,7 +109,7 @@ const Timeline = ({tthalf1, tthalf2,day, scheduleItems, images }) => {
               <div className="timeline-content-image">
                 <img id="event" src={images[id-1]} alt="Event" />
               </div>
-              <img src= {imgg} alt='image' style={{ opacity:"1",position: "relative",/* align-items: center; */left:"10%",top:"62px",height:"100px",width:"1000px",borderRadius:"8px",zIndex:"-1000"}}></img>
+              {/* <img src= {imgg} alt='image' style={{ opacity:"1",position: "relative",left:"10%",top:"62px",height:"100px",width:"1000px",borderRadius:"8px",zIndex:"-1000"}}></img> */}
             </div>
           ))}
         </div>

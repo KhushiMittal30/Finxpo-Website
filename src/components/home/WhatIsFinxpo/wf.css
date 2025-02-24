@@ -83,10 +83,11 @@
 
   }
   .whatsin h1{
-     font-size: 40px;
+     font-size: 60px;
      margin-bottom: 60px;
+      text-decoration: underline;
   }
-  
+
   .border-gradient {
     border: 130px solid transparent; /* Set the border width */
     border-image-source: linear-gradient(

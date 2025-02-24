@@ -80,41 +80,27 @@ const Day1 = () => {
           {[
             {
               idd: 1,
-              title: "Item 1",
-              date: "May 1, 2019",
+              title: "Elevator Pitch And Research Challenge",
+              date: "March 20, 2025",
               content:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",
               imgSrc: img1
             },
             {
               idd: 2,
-              title: "Item 2",
-              date: "June 1, 2019",
+              title: "Blockchain Workshop",
+              date: "March 20, 2025",
               content:
                 "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
               imgSrc:img2
             },
             {
                 idd: 3,
-                title: "Item 1",
-                date: "May 1, 2019",
+                title: "Web3 and AI Hackathon",
+                date: "March 20, 2025",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",
                 imgSrc: img3
-              },{
-                idd: 4,
-                title: "Item 1",
-                date: "May 1, 2019",
-                content:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",
-                imgSrc: img4
-              },{
-                idd: 5,
-                title: "Item 1",
-                date: "May 1, 2019",
-                content:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",
-                imgSrc: img1
               },
           ].map(({ idd, title, date, content, imgSrc }) => (
             <div

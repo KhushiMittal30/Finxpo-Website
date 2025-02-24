@@ -10,7 +10,7 @@
 }
 
 .label {
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .imgage {
@@ -22,17 +22,79 @@
   margin-top: 80px;
 }
 
+
+.custom-dropdown-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style the select box */
+.custom-dropdown {
+  width: 961px;
+  height: 54px;
+  font-size: 20px;
+  padding: 12px;
+  color: white; /* White text color */
+  background-color: rgba(217, 217, 217, 0.2); /* 20% opacity grey */
+  border: 1px solid rgba(217, 217, 217, 0.5); /* Light border */
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  appearance: none; /* Removes default styles */
+  -webkit-appearance: none; /* Safari fix */
+  -moz-appearance: none; /* Firefox fix */
+}
+
+/* Custom dropdown arrow */
+.custom-dropdown-wrapper::after {
+  content: "▼";
+  font-size: 14px;
+  color: white; /* Arrow color white */
+  position: absolute;
+  top: 75%;
+  right: 40px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Open dropdown effect */
+.custom-dropdown:focus {
+  border-color: rgba(217, 217, 217, 0.8);
+  background-color: rgba(217, 217, 217, 0.3); /* Slightly darker on focus */
+}
+
+/* Hide default dropdown arrow in some browsers */
+.custom-dropdown::-ms-expand {
+  display: none;
+}
+
+/* Dropdown Menu Styling */
+.custom-dropdown option {
+  background-color: rgba(217, 217, 217, 0.2); /* 20% opacity grey */
+  color: white; /* White text */
+  padding: 10px;
+}
+
+/* Ensure styling is applied when selecting */
+.custom-dropdown:focus option {
+  background-color: rgba(50, 50, 50, 0.9); /* Darker grey */
+  color: white;
+}
+
 .register-container {
   width: 1077px;
-  height: 1200px;
+  height: 1300px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   border-radius: 30px;
   position: absolute;
 }
 .register-back {
   width: 1077px;
-  height: 1200px;
+  height: 1300px;
   margin: 0 auto;
   padding: 80px;
   margin-bottom: 50px;
@@ -56,7 +118,9 @@
 .register-form {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 50px 0 50px;
+  /* padding: auto; */
+  height: fit-content;
 }
 
 .register-input {

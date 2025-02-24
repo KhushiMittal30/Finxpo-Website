@@ -27,7 +27,7 @@
     position: relative;;
     display:flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     margin-top: -50px;
@@ -39,14 +39,14 @@
 .innerr img {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 30%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
-.innerr img {
+/* .innerr img {
   transition: transform 0.6s ease;
   transform-style: preserve-3d;
 }
 .innerr img:hover {
   transform: rotateZ(180deg);
-}
+} */
 

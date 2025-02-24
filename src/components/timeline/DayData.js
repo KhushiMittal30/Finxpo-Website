@@ -9,34 +9,23 @@ const day1Data = {
     tthalf1: "EVENT",
     tthalf2:"SCHEDULE",
     scheduleItems: [
-            { id: 1, date: "Opening Ceremony", label: "time" ,title: "Item 1", date: "May 1, 2019",
+            { id: 1, date: "March 20, 25", label: "10:00 AM - 1:00 PM" ,title: "Elevator Pitch", date: "March 20, 25",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
    
-            { id: 2, date: "Speaker Session", label: "Item 2", title: "Item 2",date: "June 1, 2019",
+            { id: 2, date: "March 20, 25", label: "2:00 PM - 5:00 PM", title: "Research Challenge",date: "March 20, 25",
                 content:
                   "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."},
   
-            { id: 3, date: "Blockchain Workshop", label: "Item 3", title: "Item 1", date: "May 1, 2019",
+            { id: 3, date: "March 20, 25", label: "3:30 PM - 5:30 PM", title: "Blockchain Workshop", date: "March 20, 25",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
  
-            { id: 4, date: "Fireside Chat", label: "Item 4" ,title: "Item 1", date: "May 1, 2019",
+            { id: 4, date: "March 20, 25", label: "8:30 AM - 4:30 PM" ,title: "Web3 & AI Hackathon", date: "March 20, 25",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
-
-            { id: 5, date: "Elevator Pitch", label: "Item 4", title: "Item 1",date: "May 1, 2019",
-                content:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
- 
-            { id: 6, date: "Networking Dinner", label: "Item 4" ,title: "Item 1",date: "May 1, 2019",
-                content:
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
-
     ],
     images: [
-      img1,
-      img1,
       img1,
       img1,
       img1,
@@ -50,83 +39,68 @@ const day1Data = {
     day: "DAY 2",
     tthalf1: "",
     tthalf2:"",
-    scheduleItems: [{ id: 1, date: "Opening Ceremony", label: "time",title: "Item 1", date: "May 1, 2019",
+    scheduleItems: [
+      { id: 1, date: "March 21, 25", label: "10:00 AM - 1:00 PM",title: "Mock Trading Competition", date: "March 21, 25",
         content:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
         
-          { id: 2, date: "Speaker Session", label: "Item 2",title: "Item 2",date: "June 1, 2019",
+          { id: 2, date: "March 21, 25", label: "3:30 PM - 5:30 PM",title: "Quant Trading Workshop",date: "March 21, 25",
             content:
               "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."},
 
-        {id: 3, date: "Blockchain Workshop", label: "Item 3",title: "Item 1", date: "May 1, 2019",
+        {id: 3, date: "March 21, 25", label: "",title: "Prize Distribution Ceremony", date: "March 21, 25",
             content:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
 
-         { id: 4, date: "Fireside Chat", label: "Item 4",title: "Item 1",
-            date: "May 1, 2019",
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
-
-        { id: 5, date: "Elevator Pitch", label: "Item 4", title: "Item 1",
-            date: "May 1, 2019",
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
-        
-        { id: 6, date: "Networking Dinner", label: "Item 4",title: "Item 1", date: "May 1, 2019",
-        content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
     ],
     images: [
         img2,
         img2,
         img2,
-        img2,
-        img2,
-        img2
     ],
   };
 
-  const day3Data = {
-    // i:12,
-    day: "DAY 3",
-    tthalf1: "",
-    tthalf2:"",
-    scheduleItems: 
-        [{ id: 1, date: "Opening Ceremony", label: "time",title: "Item 1", date: "May 1, 2019",
-        content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
+  // const day3Data = {
+  //   // i:12,
+  //   day: "DAY 3",
+  //   tthalf1: "",
+  //   tthalf2:"",
+  //   scheduleItems: 
+  //       [{ id: 1, date: "Opening Ceremony", label: "time",title: "Item 1", date: "May 1, 2019",
+  //       content:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
         
-          { id: 2, date: "Speaker Session", label: "Item 2",title: "Item 2",date: "June 1, 2019",
-            content:
-              "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."},
+  //         { id: 2, date: "Speaker Session", label: "Item 2",title: "Item 2",date: "June 1, 2019",
+  //           content:
+  //             "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."},
 
-        {id: 3, date: "Blockchain Workshop", label: "Item 3",title: "Item 1", date: "May 1, 2019",
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
+  //       {id: 3, date: "Blockchain Workshop", label: "Item 3",title: "Item 1", date: "May 1, 2019",
+  //           content:
+  //             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
 
-         { id: 4, date: "Fireside Chat", label: "Item 4",title: "Item 1",
-            date: "May 1, 2019",
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
+  //        { id: 4, date: "Fireside Chat", label: "Item 4",title: "Item 1",
+  //           date: "May 1, 2019",
+  //           content:
+  //             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
 
-        { id: 5, date: "Elevator Pitch", label: "Item 4", title: "Item 1",
-            date: "May 1, 2019",
-            content:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
+  //       { id: 5, date: "Elevator Pitch", label: "Item 4", title: "Item 1",
+  //           date: "May 1, 2019",
+  //           content:
+  //             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
         
-        { id: 6, date: "Networking Dinner", label: "Item 4",title: "Item 1", date: "May 1, 2019",
-        content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
-    ],
-    images: [
-        img1,
-        img1,
-        img1,
-        img1,
-        img1,
-        img1
-    ],
-  };
+  //       { id: 6, date: "Networking Dinner", label: "Item 4",title: "Item 1", date: "May 1, 2019",
+  //       content:
+  //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
+  //   ],
+  //   images: [
+  //       img1,
+  //       img1,
+  //       img1,
+  //       img1,
+  //       img1,
+  //       img1
+  //   ],
+  // };
   
-  export { day1Data, day2Data, day3Data };
+  export { day1Data, day2Data};
   

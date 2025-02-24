@@ -7,7 +7,7 @@ const Index = () => {
     <>
       <Timeline {...day1Data} />
       <Timeline {...day2Data} />
-      <Timeline {...day3Data} />
+      {/* <Timeline {...day3Data} /> */}
     </>
   );
 };

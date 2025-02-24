@@ -55,13 +55,16 @@ const WhatIsFinxpo = ()=>{
     return(
     <>
       <div className="outercard">
-        <h1>What's <span className="gradient-text ubuntu-bold" style={{top:"-100px"}}>Finxpo</span></h1>
+        <h1 className="ubuntu-bold">What's <span className="gradient-text ubuntu-bold" style={{top:"-100px"}}>Finxpo</span></h1>
         <div className="innercard border-gradient2">
-            <p className="ubuntu-regular border-gradient" style={{margin:"70px 0 70px 0px",padding:"30px"}}>FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
+            <p className="ubuntu-regular border-gradient" style={{margin:"70px 0 70px 0px",padding:"30px"}}>FinXpo is a two-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
             The event aims to educate, inspire, and connect attendees with industry leaders, offering a unique blend of workshops, competitions, 
-            and networking opportunities. From blockchain basics to advanced quantitative finance methods. FinXpo is a three-day immersive experience dedicated to the future of finance, exploring the intersection of Web3 and FinTech.
-            The event aims to educate, inspire, and connect attendees with industry leaders, offering a unique blend of workshops, competitions, 
-            and networking opportunities. From blockchain basics to advanced quantitative finance methods</p>
+            and networking opportunities. <br /><br />
+            It is a college-exclusive event designed to explore the transformative domains of Web3 and FinTech, with a
+             focus on decentralized finance (DeFi), blockchain technology, and fintech startups. The event will include engaging workshops, interactive sessions, 
+             and networking opportunities, providing students with hands-on exposure to emerging technologies and trends in these fields.
+              Through this, FinXpo 2025 aims to equip participants with practical skills and insights, fostering interest and engagement within the college community.
+            </p>
         </div>
         <div className="what-is-finxpo-img">
                 <img src={downhome} alt="what is finxpo" />
@@ -69,7 +72,7 @@ const WhatIsFinxpo = ()=>{
       </div>  
 
         <div className="whatsin">
-        <h1 className="ubuntu-medium"> What's In For <span className='gradient-text ubuntu-bold'>YOU</span></h1>
+        <h1 className="ubuntu-bold"> What's In For <span className='gradient-text ubuntu-bold'>YOU</span></h1>
         <CircularCarousel />
         <div className="what-is-finxpo-img">
                 <img src={downhome} alt="what is finxpo" />

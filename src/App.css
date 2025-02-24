@@ -57,6 +57,26 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+.trade-winds-regular {
+  font-family: "Trade Winds", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 66px;
+}
+
+.faster-one-regular {
+  font-family: "Faster One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 .gradient-text {
   background: linear-gradient(

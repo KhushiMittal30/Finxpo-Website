@@ -50,9 +50,9 @@
     position: relative;
 }
 
-.geton:hover{
+/* .geton:hover{
     transform: rotateZ(30deg);
-}
+} */
 .points img{
     height: 150px;
     width: 170px;

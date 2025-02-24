@@ -25,7 +25,9 @@ const Register = () => {
     fullName: "",
     phoneNumber: "",
     email: "",
-    collegeName: "",
+    eventName: "",
+    branch:"",
+    year:"",
     signUpForNewsletter: false,
   });
 
@@ -46,7 +48,9 @@ const Register = () => {
         fullName: "",
         phoneNumber: "",
         email: "",
-        collegeName: "",
+        eventName: "",
+        branch:"",
+        year:"",
         signUpForNewsletter: false,
       });
       alert("Registration successful!");
@@ -88,14 +92,47 @@ const Register = () => {
             onChange={handleChange}
             value={formData.email} // Set initial value from formData
           />
-          <p className="label ubuntu-regular">College Name</p>
+          <div className="custom-dropdown-wrapper">
+        <label className="label ubuntu-regular" style={{fontSize:"30px"}}>Year</label>
+        <select
+          name="year"
+          className="custom-dropdown"
+          onChange={handleChange}
+          value={formData.year}
+        >
+          <option value="" disabled>Select Your Year</option>
+          <option value="Event 1">FY</option>
+          <option value="Event 2">SY</option>
+          <option value="Event 3">TY</option>
+          <option value="Event 4">Final Year</option>
+        </select>
+        </div>
+        <label className="label ubuntu-regular" style={{fontSize:"30px"}}>Branch (eg : BTech, Msc, BBA)</label>
           <input
             type="text"
-            name="collegeName"
+            name="branch"
             className="register-input"
             onChange={handleChange}
-            value={formData.collegeName} // Set initial value from formData
+            value={formData.branch} // Set initial value from formData
           />
+         <div className="custom-dropdown-wrapper">
+        <label className="label ubuntu-regular" style={{fontSize:"30px"}}>Interested Event</label>
+        <select
+          name="eventName"
+          className="custom-dropdown"
+          onChange={handleChange}
+          value={formData.eventName}
+        >
+          <option value="" disabled>Select an Event</option>
+          <option value="Event 1">Elevator Pitch</option>
+          <option value="Event 2">Blockchain Workshop</option>
+          <option value="Event 3">Web3 & AI Hackathon</option>
+          <option value="Event 4">Mock Trading Competition</option>
+          <option value="Event 5">Quant Trading Workshop</option>
+        </select>
+        </div>
+       
+
           <label className ="haha" >
             <input
               type="checkbox"

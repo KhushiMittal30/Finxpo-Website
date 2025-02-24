@@ -3,7 +3,7 @@ import TypingEffect2 from '../Organizers/typingEffect2'
 import "./speakers.css"
 
 const speakers = () => {
-    const text = "SPEAKERS";
+    const text = "GUESTS";
     
   return (
     <div className='Outside'>

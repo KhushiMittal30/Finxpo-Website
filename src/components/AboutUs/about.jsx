@@ -22,7 +22,7 @@ const about = () => {
                     <img src= {imgg} alt='image'></img>
                     <div className='aboutuspoints'>
                         <p className='ubuntu-medium-italic' style={{marginBottom:"1px", textDecoration:"underline"}}>3-DAY EVENT</p>
-                        <p>FinXpo is a comprehensive 3-day conference packed with insightful keynotes, hands-on workshops, and interactive experiences.</p>
+                        <p>FinXpo is a comprehensive 2-day conference packed with insightful keynotes, hands-on workshops, and interactive experiences.</p>
                     </div>
                 </div>
                 <div className='geton ubuntu-regular-italic'>

@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./footerlogo.jsx";
-import Numelogo from "../../assets/logo.jpg";
+import Finxpologo from "../../assets/logo.jpg";
 import { Link } from "react-router-dom";
 // import getstamp from "../assets/images/getstamp.png";
 // import ncs from "../assets/images/ncs.png";
@@ -24,7 +24,7 @@ function Footer() {
                     <div className=" md:flex justify-between box-border border-0">
                          <div className="flex flex-wrap gap-8 mb-6 md:mb-0 box-border border-0">
                             <a href="https://ridemitwpu.in/" className="flex items-center w-full text-black no-underline box-border border-0">
-                                <Logo alt="Ride Logo" src={Numelogo} className=" w-250 h-59.63 max-w-full pt-2 pb-2 mr-3 align-middle box-border border-0" width={150} />
+                                <Logo alt="Finxpo Logo" src={Finxpologo} className=" w-250 h-59.63 max-w-full pt-2 pb-2 mr-3 align-middle box-border border-0" width={150} />
                             </a>
                             {/* <a href="#" className="flex items-center h-12 mb-2 mr-3 text-black no-underline box-border border-0">
                                 <Logo alt="GetStamp" src={Numelogo} className=" h-8 max-w-full align-middle box-border border-0 transform scale-125" width={150}/>
