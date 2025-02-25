@@ -16,7 +16,7 @@
   }
 
   /* Pause animation on hover */
-.Outside:hover .articless {
+.Outside .articless:hover{
   animation-play-state: paused;
 }
 
