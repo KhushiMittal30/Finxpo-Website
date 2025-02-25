@@ -66,7 +66,7 @@ const Register = () => {
       // Show success toast
       toast.success(`🎉 Registration successful! Your ID: ${userId}`, {
         position: "top-center",
-        autoClose: 5000,
+        autoClose: 10000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
