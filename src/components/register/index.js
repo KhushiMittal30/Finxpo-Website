@@ -3,25 +3,31 @@ import "./reg.css";
 import Regisback from "./../../assets/regisback.png";
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set } from "firebase/database";
+import { toast } from "react-toastify";  // ✅ Ensure this import is present
+import "react-toastify/dist/ReactToastify.css";
+
+
+// import { v4 as uuidv4 } from 'uuid';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDGZkBqg8OUkBD_-HnC7dKUqC8VKj5qwPk",
-  authDomain: "phsykick.firebaseapp.com",
-  databaseURL: "https://phsykick.firebaseio.com",
-  projectId: "phsykick",
-  storageBucket: "phsykick.appspot.com",
-  messagingSenderId: "693358512728",
-  appId: "1:693358512728:web:9c74d8ae2a70e6de3b982d",
+  apiKey: "AIzaSyDjTcW1-V6fUSIzykr1y_rABRIkjrFobYM",
+  authDomain: "finxpo-b983e.firebaseapp.com",
+  projectId: "finxpo-b983e",
+  storageBucket: "finxpo-b983e.firebasestorage.app",
+  messagingSenderId: "1008728450303",
+  appId: "1:1008728450303:web:a903eb20f1b58a0ebd18ca",
+  measurementId: "G-VHK82VM3G1"
 };
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase();
 function writeUserData(formData, name) {
-  set(ref(db, `responces/${name}`), formData);
+  set(ref(db, `responses/${name}`), formData);
 }
 
 const Register = () => {
   const [formData, setFormData] = useState({
+    id:"",
     fullName: "",
     phoneNumber: "",
     email: "",
@@ -42,23 +48,36 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const name = formData.fullName;
+    const userId = Math.floor(100000 + Math.random() * 900000); // Generates unique 6-digit ID
+
     try {
-      writeUserData(formData, name);
+      await writeUserData({ ...formData, userId }, name); // Assuming writeUserData handles storing data
       setFormData({
+        id:"",
         fullName: "",
         phoneNumber: "",
         email: "",
         eventName: "",
-        branch:"",
-        year:"",
+        branch: "",
+        year: "",
         signUpForNewsletter: false,
       });
-      alert("Registration successful!");
+
+      // Show success toast
+      toast.success(`🎉 Registration successful! Your ID: ${userId}`, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
     } catch (error) {
       console.error("Error adding document: ", error);
-      alert("Registration failed. Please try again later.");
+      toast.error("❌ Registration failed. Please try again later.");
     }
   };
+
   return (
     <div className="holder">
       <div className="imgage">

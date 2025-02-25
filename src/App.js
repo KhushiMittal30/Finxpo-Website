@@ -1,9 +1,10 @@
-// App.js
 import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import { Navbar, Footer, Home, Register, TimeLine , AboutUs,Speakers} from "./components";
-
+import { ToastContainer } from "react-toastify"; // ✅ Import ToastContainer
+import "react-toastify/dist/ReactToastify.css"; // ✅ Import Toast styles
+import { Navbar, Footer, Home, Register, TimeLine, AboutUs, Speakers } from "./components";
 import "./App.css";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,7 +16,6 @@ const App = () => {
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/register" element={<Register />} />
           <Route path="/timeline" element={<TimeLine />} />
-
           <Route path="/ideathon" element={<Ideathon />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/instagram" element={<Instagram />} />
@@ -24,16 +24,14 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
+      <ToastContainer /> {/* ✅ Add ToastContainer here */}
     </BrowserRouter>
   );
 };
 
-// const About = () => <h1>About Page</h1>;
-// const Sponsors = () => <h1>Sponsors Page</h1>;
-// const SpeakerSessions = () => <h1>Speaker Sessions Page</h1>;
+// Other components
 const Ideathon = () => <h1>Ideathon Page</h1>;
 const TermsConditions = () => <h1>Terms and Conditions Page</h1>;
-// const PrivacyPolicy = () => <h1>Privacy Policy Page</h1>;
 const Instagram = () => <h1>Instagram Page</h1>;
 const Linkedin = () => <h1>Linkedin Page</h1>;
 const Mail = () => <h1>Mail Page</h1>;
