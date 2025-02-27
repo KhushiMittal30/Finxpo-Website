@@ -146,8 +146,9 @@ const Register = () => {
           <option value="Event 1">Elevator Pitch</option>
           <option value="Event 2">Blockchain Workshop</option>
           <option value="Event 3">Web3 & AI Hackathon</option>
-          <option value="Event 4">Mock Trading Competition</option>
-          <option value="Event 5">Quant Trading Workshop</option>
+          <option value="Event 4">Forex Trading workshop</option>
+          <option value="Event 5">Forex Trading Competition</option>
+          <option value="Event 6">Quant Trading Workshop</option>
         </select>
         </div>
        

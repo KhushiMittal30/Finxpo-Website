@@ -14,23 +14,28 @@ const day1Data = {
     tthalf1: "EVENT",
     tthalf2:"SCHEDULE",
     scheduleItems: [
-            { id: 1, date: "March 20, 25", label: "10:00 AM - 1:00 PM" ,title: "Elevator Pitch", date: "March 20, 25",
+            { id: 1, date: "March 20, 25", label: "10:30 AM - 12:30 PM" ,title: "Forex Trading Workshop", date: "March 20, 25",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
    
-            { id: 2, date: "March 20, 25", label: "2:00 PM - 5:00 PM", title: "Research Challenge",date: "March 20, 25",
+            { id: 2, date: "March 20, 25", label: "10:00 AM - 1:00 PM" ,title: "Elevator Pitch", date: "March 20, 25",
+                content:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
+   
+            { id: 3, date: "March 20, 25", label: "2:00 PM - 5:00 PM", title: "Research Challenge",date: "March 20, 25",
                 content:
                   "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."},
   
-            { id: 3, date: "March 20, 25", label: "3:30 PM - 5:30 PM", title: "Blockchain Workshop", date: "March 20, 25",
+            { id: 4, date: "March 20, 25", label: "3:30 PM - 5:30 PM", title: "Blockchain Workshop", date: "March 20, 25",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
  
-            { id: 4, date: "March 20, 25", label: "8:30 AM - 4:30 PM" ,title: "Web3 & AI Hackathon", date: "March 20, 25",
+            { id: 5, date: "March 20, 25", label: "8:30 AM - 4:30 PM" ,title: "Web3 & AI Hackathon", date: "March 20, 25",
                 content:
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam."},
     ],
     images: [
+      img2,
       img3,
       img7,
       img4,
@@ -45,15 +50,17 @@ const day1Data = {
     tthalf1: "",
     tthalf2:"",
     scheduleItems: [
-      { id: 1, date: "March 21, 25", label: "10:00 AM - 1:00 PM",title: "Mock Trading Competition", date: "March 21, 25",
+      {id: 1, date: "March 21, 25", label: "9:30 AM - 12:30 PM",title: "Forex Trading Competition Phase 1", date: "March 21, 25",
         content:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},
-        
-          { id: 2, date: "March 21, 25", label: "3:30 PM - 5:30 PM",title: "Quant Trading Workshop",date: "March 21, 25",
+      {id: 2, date: "March 21, 25", label: "1:30 PM - 3:30 PM",title: "Forex Trading Competition Phase 2", date: "March 21, 25",
+        content:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.",},        
+          { id: 3, date: "March 21, 25", label: "3:30 PM - 5:30 PM",title: "Quant Trading Workshop",date: "March 21, 25",
             content:
               "BL Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."},
 
-        {id: 3, date: "March 21, 25", label: "",title: "Prize Distribution Ceremony", date: "March 21, 25",
+        {id: 4, date: "March 21, 25", label: "",title: "Prize Distribution Ceremony", date: "March 21, 25",
             content:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim accumsan aliquam.", },
 
