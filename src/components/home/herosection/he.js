@@ -3,14 +3,13 @@ import React from "react";
 import "./he.css";
 import hero from "../../../assets/hero.jpg";
 import { Link } from "react-router-dom";
-import TypingEffect2 from "../../Organizers/typingEffect2";
 
 const HeroSection = () => {
   return (
     <div className="hero">
-      <div className="hero__content">
+      <div className="hero__content ">
         
-        <div className="hero__text trade-winds-regular gradient-text">MIT’s Biggest Fin-Tech Expo</div>
+        <div className="hero__text trade-winds-regular gradient-text ">MIT’s Biggest Fin-Tech Expo</div>
         <div className="hero__text _1he trade-winds-regular">Welcomes you Aboard</div>
         {/* <TypingEffect2 className="hero__text _1he" text={"Welcomes you Abroad"} speed={150} /> */}
         <Link to="/timeline">
