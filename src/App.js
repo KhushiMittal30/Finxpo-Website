@@ -26,7 +26,7 @@ const App = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 640); // Tailwind `sm` breakpoint
+      setIsMobile(window.innerWidth < 840); // Tailwind `sm` breakpoint
     };
 
     handleResize(); // Check on mount
