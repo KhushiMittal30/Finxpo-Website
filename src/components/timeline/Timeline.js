@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./tl.css";
 import TypingEffect2 from "../Organizers/typingEffect2";
-import imgg from "../../assets/splatter_bg_aboutus.jpg";
+// import imgg from "../../assets/splatter_bg_aboutus.jpg";
 
 
 const Timeline = ({tthalf1, tthalf2, day, scheduleItems, images }) => {

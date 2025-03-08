@@ -1,6 +1,6 @@
 import React from "react";
 import Timeline from "./Timeline";
-import { day1Data, day2Data, day3Data } from "./DayData";
+import { day1Data, day2Data} from "./DayData";
 
 const Index = () => {
   return (

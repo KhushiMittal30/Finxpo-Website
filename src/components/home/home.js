@@ -1,5 +1,5 @@
 import React from "react";
-import { HeroSection, DownHomeSection,WhatIsFinxpo} from "./index";
+import { HeroSection,WhatIsFinxpo} from "./index";
 
 const Home = () => {
   return (
