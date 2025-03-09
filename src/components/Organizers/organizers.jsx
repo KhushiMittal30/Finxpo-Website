@@ -15,13 +15,13 @@ const speakers = () => {
   return (
     <div className='Outer'>
     <h3 className='ubuntu-bold' style={{fontSize:"50px"}}> MEET THE <TypingEffect2 text={text} speed={50} /></h3>
-     <div className='border-gradient'>
+     <div className='border-gradient' style={{width:"950px"}}>
       <img style={{height:"500px", width:"500px",alignItems:"center", position:"relative", left:"24%"}} src={numerateslogo} alt="numlogo" />
     <div className='innerr'>
     <img  src={ddlogo} alt="numlogo" />
     <img  src={trademax} alt="numlogo" />
-    <img  src={ddlogo} alt="numlogo" />
-    <img  src={trademax} alt="numlogo" />
+    {/* <img  src={ddlogo} alt="numlogo" /> */}
+    {/* <img  src={trademax} alt="numlogo" /> */}
 
     </div>
     </div>
